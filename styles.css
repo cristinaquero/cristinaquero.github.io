@@ -16,10 +16,10 @@ img {
 
 .center {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
-.centertext{
+
+.centertext {
   text-align: center;
 }
 
@@ -30,6 +30,20 @@ img {
 .cajita {
   margin: auto;
   width: 50%;
+  margin-bottom: 50px;
 }
-a{text-decoration: none;
-color: #b3c6e5}
+
+a {
+  text-decoration: none;
+  color: #b3c6e5
+}
+
+.menu {
+  font-family: 'Roboto', sans-serif;
+}
+
+.margenmenu {
+  display: inline-block;
+  margin-right: 25px;
+  margin-left: 25px;
+}
